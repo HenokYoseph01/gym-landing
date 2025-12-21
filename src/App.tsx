@@ -9,6 +9,7 @@ import Program from "./pages/Program";
 import Trainers from "./pages/Trainers";
 import { AnimatePresence, LayoutGroup } from "framer-motion";
 import PreLoader from "./pages/PreLoader";
+import LocationMap from "./components/LocationMap";
 
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
@@ -33,6 +34,7 @@ function App() {
             <Program />
             <Trainers />
             <Pricing />
+            <LocationMap />
             <CTA />
             <Footer />
           </>
